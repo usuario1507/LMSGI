@@ -6,7 +6,7 @@
 
 /* header nav#contacto { */
 header {
-    height: 250px;
+    height: 200px;
     display: flex;
     border: 1px solid black;
     flex-flow: row wrap;
@@ -20,7 +20,7 @@ header #contacto {
     justify-content: flex-start;
     align-items: center;
 }
-header #contacto a{
+header #contacto a {
     font-size: 18px;
     text-decoration: none;
     border: 0px solid black;
@@ -48,7 +48,7 @@ header #sociales a {
 }
 header figure {
     height: 70%;
-    background-color: black;
+    background-color:black;
     width: 15%;
     display: flex;
     flex-flow: column nowrap;
@@ -62,7 +62,7 @@ header figure h3 {
     color: white;
 }
 header #principal {
-    background-color: black;
+    background-color:black;
     width: 85%;
     order: 1;
     display: flex;
@@ -74,7 +74,7 @@ header #principal a {
     text-decoration: none;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: center;    
     border: 0px solid white;
 }
 header #principal a:hover {
@@ -110,8 +110,8 @@ header #principal a:hover span {
     color: blue;
     transform: translateY(-40px);
 
-    /* order: 1;*/
-
+   /* order: 1;*/
+    
 }
 
 main {
@@ -131,9 +131,9 @@ main #breadCrumb {
     justify-content: center;
     align-items: center;
 }
-main #breadCrumb h2{
+main #breadCrumb h2 {
     display: flex;
-    /* flex-flow: row nowrap; */
+   /* flex-flow: row nowrap; */
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -146,31 +146,31 @@ main #breadCrumb h2{
 }
 main #breadCrumb nav{
     width: 30%;
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     align-items: center;
 }
 main #breadCrumb nav a{
-    text-decoration: none;
+    text-decoration: none;  
     padding:5px;
     font-size: 17px;
 }
 main #breadCrumb nav a1::after{
     content: ' > ';
 }
-main #breadCrumb nav a:last-child{ 
-     color: black;
-     font-style: italic;
-     text-decoration: underline;
+main #breadCrumb nav a:last-child{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
 }
 main #breadCrumb nav a1:last-child::after{
-     content: '';
-
+    content: '';
+   
 }
 
 main section {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     padding-top: 10px;
 }
@@ -187,7 +187,7 @@ main section article figure {
     justify-content: center;
 }
 main section article figure img {
-    height: 100px;
+    height: 100%;
 }
 main section article .envio{
     width: 25%;
@@ -212,7 +212,7 @@ main section article .valoracion{
 }main section article .comentarios{
     padding: 3px;
     width: 20%;
-}main section article.comparar{
+}main section article .comparar{
     padding: 3px;
 
     width: 100%;
