@@ -7,5 +7,7 @@
 			"path": "..\\RepoclaseLMSGI"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LMSGI"
+	}
 }
