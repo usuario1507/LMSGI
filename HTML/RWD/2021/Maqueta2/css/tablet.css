@@ -11,3 +11,47 @@ header nav {
     order: 1;
     flex-direction: row;;   
 }
+main {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main nav {
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: red;
+   width: 90%;
+   
+}
+main section {
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: orange;
+}
+main aside { 
+    width: 20%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer #mapa{
+    width: ;
+}
+footer #sociales{
+    
+}

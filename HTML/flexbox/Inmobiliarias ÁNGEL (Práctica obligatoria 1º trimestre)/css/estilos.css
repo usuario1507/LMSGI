@@ -6,14 +6,14 @@
 
 /* header nav#contacto { */
 header {
-    height: 200px;
+    height: 250px;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid blue;
     flex-flow: row wrap;
 }
 header #contacto {
     height: 30%;
-    width: 80%;
+    width: 60%;
     background-color: rgba(0,0,0, .1);
     display: flex;
     flex-flow: row nowrap;
@@ -23,23 +23,20 @@ header #contacto {
 header #contacto a {
     font-size: 18px;
     text-decoration: none;
-    border: 0px solid black;
+    border: 0px solid orange;
     padding: 5px;
-    color: black;
+    color: orange;
     margin-right: 10px;
 }
 header #contacto a:nth-child(1) {
     margin-left: 10px;
-    background-color: green;
 }
 header #sociales {
     height: 30%;
     width: 20%;
-    background-color: rgba(0,0,0, .1);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center;
 }
 header #sociales a {
     color: black;
@@ -47,35 +44,30 @@ header #sociales a {
 
 }
 header figure {
-    height: 70%;
-    background-color:black;
+    height: 100%;
     width: 15%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 }
 header figure img {
-    height: 60%;
+    height: 50%;
 }
 header figure h3 {
-    color: white;
+    color: blue;
 }
 header #principal {
-    background-color:black;
+    background-color: blue;
     width: 85%;
     order: 1;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center;
 }
 header #principal a {
     text-decoration: none;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;    
-    border: 0px solid white;
+    border: 1 px solid orange;
 }
 header #principal a:hover {
 
@@ -94,9 +86,9 @@ header #principal a i {
     transition: all 1s;
 }
 header #principal a:hover i {
-    color: red;
+    color: black;
     transform: scale(1) translateY(30px);
-    /*order: 2;*/
+    /*order: 1;*/
 }
 header #principal a span {
     order:2;
@@ -110,67 +102,33 @@ header #principal a:hover span {
     color: blue;
     transform: translateY(-40px);
 
-   /* order: 1;*/
-    
+    /* order: 2;*/
+
 }
 
-main {
-    min-height:500px;
-}
-main #breadCrumb {
-    height: 50px;
-    background-color: ;
+main #breadCrumb h2{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-.centrado {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-main #breadCrumb h2 {
-    display: flex;
-   /* flex-flow: row nowrap; */
+    /* flex-flow: row nowrap; */
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 20%;
-    border: 0px solid black;
-    color: white;
+    border: 0px solid white;
+    color: brown;
     font-size: 30px;
     font-family: 'Irish Grover';
 }
 main #breadCrumb nav{
     width: 30%;
-    border: 0px solid black;
+    border: 1px solid brown;
     display: flex;
     align-items: center;
-}
-main #breadCrumb nav a{
-    text-decoration: none;  
-    padding:5px;
-    font-size: 17px;
-}
-main #breadCrumb nav a1::after{
-    content: ' > ';
-}
-main #breadCrumb nav a:last-child{
-    color: black;
-    font-style: italic;
-    text-decoration: underline;
-}
-main #breadCrumb nav a1:last-child::after{
-    content: '';
-   
 }
 
 main section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     padding-top: 10px;
 }
@@ -187,7 +145,7 @@ main section article figure {
     justify-content: center;
 }
 main section article figure img {
-    height: 100%;
+    height: 100px;
 }
 main section article .envio{
     width: 25%;
@@ -212,7 +170,7 @@ main section article .valoracion{
 }main section article .comentarios{
     padding: 3px;
     width: 20%;
-}main section article .comparar{
+}main section article.comparar{
     padding: 3px;
 
     width: 100%;

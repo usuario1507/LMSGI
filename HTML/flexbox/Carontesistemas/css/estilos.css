@@ -11,7 +11,7 @@ header {
     border: 1px solid black;
     flex-flow: row wrap;
 }
-header #contacto {
+header #contact {
     height: 30%;
     width: 80%;
     background-color: rgba(0,0,0, .1);
@@ -59,7 +59,7 @@ header figure img {
     height: 60%;
 }
 header figure h3 {
-    color: white;
+    color: black;
 }
 header #principal {
     background-color: black;
@@ -94,7 +94,7 @@ header #principal a i {
     transition: all 1s;
 }
 header #principal a:hover i {
-    color: red;
+    color: black;
     transform: scale(1) translateY(30px);
     /*order: 2;*/
 }
