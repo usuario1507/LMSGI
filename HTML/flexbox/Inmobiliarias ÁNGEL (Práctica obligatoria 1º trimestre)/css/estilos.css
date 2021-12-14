@@ -8,7 +8,7 @@
 header {
     height: 250px;
     display: flex;
-    border: 1px solid blue;
+    border: 4px solid blue;
     flex-flow: row wrap;
 }
 header #contacto {
@@ -23,10 +23,10 @@ header #contacto {
 header #contacto a {
     font-size: 18px;
     text-decoration: none;
-    border: 0px solid orange;
+    border: 0px solid red;
     padding: 5px;
-    color: orange;
-    margin-right: 10px;
+    color: red;
+    margin-right: 30px;
 }
 header #contacto a:nth-child(1) {
     margin-left: 10px;
@@ -80,7 +80,7 @@ header #principal a:nth-child(1) i {
 }
 header #principal a i {
     order: 1;
-    font-size: 40px;
+    font-size: 20px;
     color: green;
     padding-bottom: 5px;
     transition: all 1s;
@@ -88,7 +88,7 @@ header #principal a i {
 header #principal a:hover i {
     color: black;
     transform: scale(1) translateY(30px);
-    /*order: 1;*/
+    /*order: 2;*/
 }
 header #principal a span {
     order:2;
@@ -97,35 +97,6 @@ header #principal a span {
     color: white;
     transition: all 1s;
 }
-
-header #principal a:hover span {
-    color: blue;
-    transform: translateY(-40px);
-
-    /* order: 2;*/
-
-}
-
-main #breadCrumb h2{
-    display: flex;
-    /* flex-flow: row nowrap; */
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    border: 0px solid white;
-    color: brown;
-    font-size: 30px;
-    font-family: 'Irish Grover';
-}
-main #breadCrumb nav{
-    width: 30%;
-    border: 1px solid brown;
-    display: flex;
-    align-items: center;
-}
-
 main section {
     display: flex;
     flex-flow: row nowrap;
@@ -135,7 +106,7 @@ main section {
 main section article {
     width: 32%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: flex-start;
 }
 main section article figure {
@@ -147,13 +118,6 @@ main section article figure {
 main section article figure img {
     height: 100px;
 }
-main section article .envio{
-    width: 25%;
-    border: 2px solid green;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: center
-}
 main section article h3{
     padding: 3px;
     width: 80%;
@@ -164,9 +128,6 @@ main section article .precio{
     font-size: 20px;
     font-family: Lobster;
 }
-main section article .valoracion{
-    width: 10%;
-    padding: 3px;
 }main section article .comentarios{
     padding: 3px;
     width: 20%;
